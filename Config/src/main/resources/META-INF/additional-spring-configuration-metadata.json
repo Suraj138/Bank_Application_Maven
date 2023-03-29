@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.cloud.congig.server.git.default-label",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.congig.server.git.default-label'"
+  },
+  {
+    "name": "spring.cloud.congig.server.git.clone-on-start",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.congig.server.git.clone-on-start'"
+  }
+]}

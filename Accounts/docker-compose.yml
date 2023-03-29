@@ -1,0 +1,15 @@
+services:
+  Accounts:
+    image: ksuraj138/accounts
+    ports: 
+      - "8085:8085"
+    networks:
+      - example-network
+  Cards:
+    image: ksuraj138/cards
+    ports: 
+      - "8090:8090"
+    networks:
+      - example-network
+networks:
+  example-network: {}
